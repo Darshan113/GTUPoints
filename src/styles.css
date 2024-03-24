@@ -1,1 +1,13 @@
 @import "primeicons/primeicons.css";
+
+
+/* Order */
+@layer reset, primeng;
+
+/* Reset CSS */
+@layer reset {
+    button,
+    input {
+        /* CSS to Reset */
+    }
+}

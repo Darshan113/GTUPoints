@@ -11,3 +11,10 @@
         /* CSS to Reset */
     }
 }
+
+:root{
+    --header-Bg: #C5CFD6;
+    --navbar-Bg: #001C30;
+    --white: #FFFFFF;
+
+}

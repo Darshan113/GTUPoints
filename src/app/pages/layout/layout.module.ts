@@ -7,6 +7,10 @@ import { DisplayComponent } from './display/display.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NavComponent } from './nav/nav.component';
 import { LayoutComponent } from './layout.component';
+import { BadgeModule } from 'primeng/badge';
+import { TabMenuModule } from 'primeng/tabmenu';
+import { HeaderComponent } from '../header/header.component';
+
 
 const routes:Routes = [
   {path:'',component: LayoutComponent ,children:[ 
@@ -24,10 +28,15 @@ const routes:Routes = [
     HomeComponent,
     ActivityFormComponent,
     DisplayComponent,
-    ProfileComponent
+    ProfileComponent,
+    NavComponent,
+    HeaderComponent,
+    LayoutComponent
   ],
   imports: [
     CommonModule,
+    BadgeModule,
+    TabMenuModule,
     RouterModule.forChild(routes)
   ]
 })

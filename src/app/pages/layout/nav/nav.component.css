@@ -1,0 +1,36 @@
+:host ::ng-deep ul.p-tabmenu-nav.p-reset{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+:host ::ng-deep ul{
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+:host ::ng-deep ul a{
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+
+:host ::ng-deep ul a:hover, .active{
+    background-color: white;
+    color: var(--navbar-Bg);
+}
+
+:host ::ng-deep  .p-tabmenu .p-tabmenu-nav, :host ::ng-deep .card {
+    border: none;
+    background-color: var(--navbar-Bg);
+}
+
+
+:host ::ng-deep .p-tabmenu-nav-content{
+    background-color: var(--navbar-Bg);
+}
